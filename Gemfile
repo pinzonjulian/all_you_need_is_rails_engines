@@ -67,5 +67,3 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
-gem 'rider_app', path: 'packages/rider_app'
