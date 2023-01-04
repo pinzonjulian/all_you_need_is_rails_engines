@@ -1,8 +1,6 @@
-require_relative "lib/rider_app/version"
-
 Gem::Specification.new do |spec|
   spec.name        = "rider_app"
-  spec.version     = RiderApp::VERSION
+  spec.version     = "0.1.0"
   spec.authors     = ["Write your name"]
   spec.email       = ["Write your email address"]
   spec.summary     = "Summary of RiderApp."
