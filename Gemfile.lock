@@ -1,3 +1,9 @@
+PATH
+  remote: packages/rider_app
+  specs:
+    rider_app (0.1.0)
+      rails (>= 7.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -220,6 +226,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4)
   redis (~> 4.0)
+  rider_app!
   selenium-webdriver
   sqlite3 (~> 1.4)
   stimulus-rails
