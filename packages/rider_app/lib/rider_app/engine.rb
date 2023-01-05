@@ -2,6 +2,9 @@ module RiderApp
   class Engine < ::Rails::Engine
     isolate_namespace RiderApp
 
+    # https://github.com/thoughtbot/factory_bot_rails#automatic-factory-definition-loading
+    config.factory_bot.definition_file_paths << Engine.root.join("test/factories")
+
     initializer "rider_app.assets" do |app|
       # add app/javascript in engine to mimic the default structure
       # of a vanilla Rails application
