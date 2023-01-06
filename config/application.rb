@@ -7,6 +7,8 @@ require "rails/all"
 Bundler.require(*Rails.groups)
 require "./packages/platform/lib/platform.rb"
 require "./packages/rider_app/lib/rider_app.rb"
+require "./packages/driver_app/lib/driver_app.rb"
+require "./packages/driver_app/features/onboarding/lib/driver_app/onboarding.rb"
 
 module Elefante
   class Application < Rails::Application
