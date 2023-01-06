@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Driver" pattern="file[elefante]:packages/driver_app/*/**||file:packages/driver_app/*" />
+</component>

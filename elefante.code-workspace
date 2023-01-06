@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "packages/driver_app"
+		},
+		{
+			"path": "packages/rider_app"
+		},
+		{
+			"path": "packages/platform"
+		}
+	],
+	"settings": {}
+}
