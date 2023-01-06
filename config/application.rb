@@ -5,6 +5,7 @@ require "rails/all"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+require "./packages/platform/lib/platform.rb"
 require "./packages/rider_app/lib/rider_app.rb"
 
 module Elefante

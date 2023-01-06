@@ -1,5 +1,4 @@
 module RiderApp
-  class ApplicationRecord < ActiveRecord::Base
-    self.abstract_class = true
+  class ApplicationRecord < ::ApplicationRecord
   end
 end
