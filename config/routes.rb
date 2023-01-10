@@ -3,5 +3,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  mount RiderApp::Engine, at: "/rider_app"
+  constraints subdomain: "rider" do
+    mount RiderApp::Engine, at: "/"
+  end
+
+  constraints subdomain: "driver" do
+    mount DriverApp::Engine, at: "/"
+  end
+
+  mount MarketingSite::Engine, at: "/"
 end
