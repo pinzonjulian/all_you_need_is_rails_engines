@@ -71,3 +71,5 @@ end
 
 
 gem "packwerk", "~> 2.2"
+
+gem "sitepress-rails", path: "lib/gems/sitepress/sitepress-rails"
