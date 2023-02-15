@@ -2,12 +2,12 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   # Defines the root path route ("/")
   # root "articles#index"
-  constraints subdomain: "rider" do
-    mount RiderApp::Engine, at: "/"
+  constraints subdomain: "student" do
+    mount StudentApp::Engine, at: "/"
   end
 
-  constraints subdomain: "driver" do
-    mount DriverApp::Engine, at: "/"
+  constraints subdomain: "teacher" do
+    mount TeacherApp::Engine, at: "/"
   end
 
   # Keep these routes last in this file to avoid presedence issues.

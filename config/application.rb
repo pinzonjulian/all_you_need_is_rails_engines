@@ -8,7 +8,7 @@ require "rails/all"
 Bundler.require(*Rails.groups)
 PackageLoader.load_all
 
-module Elefante
+module MusicUniverse
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0

@@ -4,10 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "packages/driver_app"
+			"path": "packages/teacher_app"
 		},
 		{
-			"path": "packages/rider_app"
+			"path": "packages/student_app"
 		},
 		{
 			"path": "packages/platform"

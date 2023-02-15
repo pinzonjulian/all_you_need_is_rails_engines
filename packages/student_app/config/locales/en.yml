@@ -1,0 +1,5 @@
+en:
+  student_app:
+    home:
+      home:
+        greeting: "Hello from Student App home with locale"
