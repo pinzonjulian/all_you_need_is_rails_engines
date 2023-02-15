@@ -1,24 +1,9 @@
-# README
+# All you need is Rails Engines
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails app contains the code for a modularised Rails application using Rails Engines and Packwerk.
 
-Things you may want to cover:
+This readme will be properly updated in the next few days but you can explore the code and I'm sure you'll learn a lot!
 
-* Ruby version
+The way to better understand what goes on into creating an app like this is to follow every commit which has a complete and thorough explanation of what happened so you'll be able to replicate it step by step if you want.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+🤘
